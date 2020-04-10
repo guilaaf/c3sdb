@@ -1,5 +1,5 @@
 {
-  "name": "c3sdb",
+  "name": "c3sdb-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
