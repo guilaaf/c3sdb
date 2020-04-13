@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  static-content: file:../frontend/public/
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/plain,text/css,application/javascript,application/json
+    min-response-size: 1024
+
+logging:
+  level:
+    ROOT: ERROR
+    com.c3sdb: DEBUG
+    org.springframework: INFO
