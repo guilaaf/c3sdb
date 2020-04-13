@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Supercell-Magic';
+  font-style: normal;
+  src: url('../font/Supercell-magic-webfont.woff') format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-container {
+  padding: 2em;
+}
+
+.hidden {
+  display: none;
+}
+
+.th-1 {
+  background-image: url('/src/img/th1-small.png');
+}
+.th-2 {
+  background-image: url('/src/img/th2-small.png');
+}
+.th-3 {
+  background-image: url('/src/img/th3-small.png');
+}
+.th-4 {
+  background-image: url('/src/img/th4-small.png');
+}
+.th-5 {
+  background-image: url('/src/img/th5-small.png');
+}
+.th-6 {
+  background-image: url('/src/img/th6-small.png');
+}
+.th-7 {
+  background-image: url('/src/img/th7-small.png');
+}
+.th-8 {
+  background-image: url('/src/img/th8-small.png');
+}
+.th-9 {
+  background-image: url('/src/img/th9-small.png');
+}
+.th-10 {
+  background-image: url('/src/img/th10-small.png');
+}
+.th-11 {
+  background-image: url('/src/img/th11-small.png');
+}
+
+.th-d {
+  background-image: url('/src/img/thx-destroyed.png');
+}
+
+.stars-0 {
+  background-image: url('/src/img/stars-0.png');
+}
+
+.stars-1 {
+  background-image: url('/src/img/stars-1.png');
+}
+
+.stars-2 {
+  background-image: url('/src/img/stars-2.png');
+}
+
+.stars-3 {
+  background-image: url('/src/img/stars-3.png');
+}
+
+.site-logo {
+  font-family: 'Supercell-Magic', sans-serif;
+  font-size: 20px !important;
+  padding-top: 12px !important;
+  vertical-align: bottom;
+  background-image: url('/src/img/stars-3.png');
+  background-size: 90px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -3px;
+  margin-left: 4px;
+}
+
+.attack-card-media {
+  height: 240px;
+}
+
+.form-image {
+  height: 280px;
+}

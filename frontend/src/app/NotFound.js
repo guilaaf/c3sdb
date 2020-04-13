@@ -4,9 +4,9 @@ export default class NotFound extends React.Component {
 
     render() {
         return (
-            <div className="card-panel">
+            <h1>
                 Page Not Found
-            </div>
+            </h1>
         );
     }
 }
