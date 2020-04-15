@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardActionArea, CardMedia, CardContent, CardActions, Typography, Fab } from '@material-ui/core';
+import { Card, CardActionArea, CardMedia, CardContent, Typography, Fab } from '@material-ui/core';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';

@@ -23,6 +23,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundRepeat: 'no-repeat',
         backgroundPositionX: 'center',
         backgroundPositionY: '-5px',
+
+    },
+    link: {
         textDecoration: 'none',
         color: '#fff',
     },
@@ -71,7 +74,7 @@ const Header = () => {
         <AppBar position="static">
             <Toolbar>
                 <Typography className={classes.title} variant="h6" noWrap>
-                    <Link to="/">Clash DataBase</Link>
+                    <Link className={classes.link} to="/">Clash DataBase</Link>
                 </Typography>
                 <div className={classes.grow}/>
                 <div className={classes.search}>

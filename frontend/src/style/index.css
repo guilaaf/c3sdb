@@ -97,6 +97,21 @@ code {
   height: 240px;
 }
 
+.form-cell-centered {
+  text-align: center;
+}
+
 .form-image {
   height: 280px;
+  margin-bottom: 1em;
 }
+
+.form-centered {
+  margin: auto;
+}
+
+.form-expanded {
+  width: 100%;
+}
+
+
